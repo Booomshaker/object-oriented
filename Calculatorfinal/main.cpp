@@ -7,7 +7,7 @@
 int main(int argc, char* argv[])
 {
 	scan sc;
-	print pr;
+	//print pr;
 	calculation ca;
 	string input,st;
 	int i = 0;
@@ -18,6 +18,7 @@ int main(int argc, char* argv[])
 	for(i = 0;i < argc;i++)
 	{
 		st = argv[i];
+		//cout<<st<<endl; 
 		if(st == "-a")
 			{
 				cout << input << " = ";
