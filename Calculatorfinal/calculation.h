@@ -10,7 +10,7 @@ using namespace std;
 class calculation
 {
 	public:
-		stack<double> ToStack(queue<string> something);
+		string ToCalculate(queue<string> something);
 };
 
 #endif

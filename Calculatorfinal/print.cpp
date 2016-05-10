@@ -1,10 +1,28 @@
 #include"print.h"
-void print::PrintStringQueue (queue<string> result)
+
+void print::ToPrint (queue<string>ans,int flag,string outfile)
+{
+	if(flag == 1)
 	{
-		while (result.size() > 0)
-		{
-			cout << result.front() << endl;//打印队列的首元素 
-			result.pop();//删除队列的首元素 
-		}	
+		cout << ans.front() << "=";
+		ans.pop();
+		cout << ans.front() << endl;
 	}
+	else if(flag == 2)
+	{
+		cout << "Congratulations!" << endl;
+		freopen(outfile.c_str(),"w",stdout);
+		while(!ans.empty())
+		{
+			cout << ans.front() << endl;
+			ans.pop();
+		}
+	}
+	else
+	{
+		ans.pop();
+		cout << ans.front() << endl; 
+	}
+	
+}
 	

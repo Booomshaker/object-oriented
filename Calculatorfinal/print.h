@@ -8,7 +8,8 @@ using namespace std;
 class print
 {
 public :
-	void PrintStringQueue (queue<string> result);
+	
+	void ToPrint(queue<string>ans,int flag,string outfile);
 };
 
 #endif 
