@@ -1,3 +1,17 @@
+/************************************************************
+  FileName:     main.cpp
+  Author:       Mr.who     
+  Version :     1.3      
+  Date:         2016/05/09
+  Description:  the main function file
+  History:
+  	<author>	<time>		  <version>	  <description>
+  	Mr.who		16/03/20	    1.0       完成函数基本功能 
+  	Mr.who      16/03/21	    1.1       添加注释
+	Mr.who      16/04/11		1.2		  添加参数"-a"的情况
+	Mr.who      16/05/07        1.3       添加参数"-f"的情况 
+***********************************************************/
+
 #include <iostream>
 #include "print.h"
 #include "scan.h"

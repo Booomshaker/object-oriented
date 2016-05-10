@@ -1,14 +1,3 @@
-/************************************************************
-  FileName:     main.cpp
-  Author:       Mr.who     
-  Version :     1.0         
-  Date:         2016.04.10
-  Description:  从队列中读取字符串
-  				res:存转化过的后缀表达式
-				sig:存符号
-				num:存后缀表达式处理后的数字 
-***********************************************************/
-
 #include"calculation.h"
 #include<sstream>
 using namespace std;
