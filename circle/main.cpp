@@ -8,4 +8,5 @@ int main()
 	cin >> r;
 	cout << calculate(r) << endl;
 	return 0;
-} 
+}
+ 
