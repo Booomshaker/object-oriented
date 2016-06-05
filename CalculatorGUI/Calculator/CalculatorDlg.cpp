@@ -382,8 +382,12 @@ void CCalculatorDlg::OnBnClickedOk()
 
 BOOL CCalculatorDlg::PreTranslateMessage(MSG* pMsg)
 {
-	// TODO: Add your specialized code here and/or call the base class  
-	if (pMsg->message == WM_KEYDOWN)
+	bool flag = true;
+	CWnd *p = GetFocus();
+	if (p == GetDlgItem(IDC_EDIT2) || p == GetDlgItem(IDC_EDIT3))
+		flag = false;
+	//解决文本框焦点问题
+	if (pMsg->message == WM_KEYDOWN && flag)
 	{
 		switch (pMsg->wParam)
 		{  

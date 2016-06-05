@@ -1,2 +1,9 @@
-﻿  Calculator.vcxproj -> C:\Users\练大飞\documents\visual studio 2015\Projects\Calculator\Debug\Calculator.exe
-  Calculator.vcxproj -> C:\Users\练大飞\documents\visual studio 2015\Projects\Calculator\Debug\Calculator.pdb (Partial PDB)
+﻿  stdafx.cpp
+  Scanner.cpp
+d:\git\object-oriented\calculatorgui\calculator\scanner.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+  CalculatorDlg.cpp
+  Calculator.cpp
+  Calculationer.cpp
+  正在生成代码...
+  Calculator.vcxproj -> D:\git\object-oriented\CalculatorGUI\Debug\Calculator.exe
+  Calculator.vcxproj -> D:\git\object-oriented\CalculatorGUI\Debug\Calculator.pdb (Partial PDB)

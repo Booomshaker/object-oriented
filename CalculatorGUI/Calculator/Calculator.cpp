@@ -100,3 +100,4 @@ BOOL CCalculatorApp::InitInstance()
 	return FALSE;
 }
 
+
